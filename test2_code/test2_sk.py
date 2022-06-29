@@ -117,8 +117,7 @@ for bs, t in zip(batch_size, times):
                             momentum=0,
                             nesterovs_momentum=False,
                             early_stopping=False,
-                            validation_fraction=0,
-                            random_state=0)
+                            validation_fraction=0)
 
     tracemalloc.start()
     clf = clf.fit(train_x, train_y_encoded)
