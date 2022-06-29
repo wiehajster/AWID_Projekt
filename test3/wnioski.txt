@@ -1,0 +1,7 @@
+-	Wraz ze wzrostem wielkości zbioru treningowego, wzrasta dokładność
+-	Największą dokładność uzyskiwała metoda A, mniejszą MLPClassifier a najmniejszą metoda B.
+-	Wraz ze wzrostem wielkości zbioru treningowego wzrasta również liczba alokacji i zużyta pamięć
+-	Dla obu metod A I B, znaczny wzrost liczby alokacji I zużytej pamięci następuje dopiero przy zbiorze treningowym liczącym 10 000 obrazków
+-	Bardzo podobnie wygląda sytuacja w przypadku czasu trwania jednej epoki. Ponownie czas trwania zaczyna znacznie wzrastać dopiero przy zbiorze treningowym składającym się z 10 000 obrazków.
+-	Czasy dla metody A I MLPClassifier są bardzo podobne. Metoda B była najszybsza. 
+-	Przy pełnym zbiorze treningowym liczącym 60 000 obrazków, metoda A I MLPClassifier były ponad 3 razy wolniejsze niż metoda B.

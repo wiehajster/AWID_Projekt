@@ -1,0 +1,5 @@
+-	Wraz ze wzrostem batch size’u spada dokładność
+-	Przez większość eksperymentu MLPClassifier miał wyższą dokładność niż metoda B
+-	Wraz ze wzrostem batch size’u spada również liczba alokacji i zużywana pamięć. Największy spadek pojawia się przy rozmiarze batcha równym 10, potem ten spadek jest już niewielki
+-	W przypadku metody B czas trwania jednej epoki jest prawie stały, najdłużej trwała epoka przy rozmiarze batcha równym 1, potem się prawie czas prawie się nie zmieniał
+-	W przypadku MLPClassifier czas trwania jednej epoki przy rozmiarze batcha równym 1 jest ponad 2 razy większy niż dla metody B, ale przy rozmiarze batcha następuje duży spadek poniżej czasu trwania dla metody B. Przy kolejnych rozmiarach batcha czas epoki jeszcze spada, ale niewiele. Dla wszystkich testowanych rozmiarów batcha oprócz 1, MLPClassifier był szybszy niż metoda B.

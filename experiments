@@ -1,0 +1,4 @@
+1. czas pamięć accuracy -> od liczby neuronów (1 epoka)
+2. czas pamięć accuracy -> rozmiaru batcha, sgd, mgd, bgd (1 epoka)
+3. czas pamięć accuracy -> od liczby danych treningowych (1 epoka)
+4. accuracy resnet

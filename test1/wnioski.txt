@@ -1,0 +1,8 @@
+-	Dla metody A I MLPClassifier Wraz ze wzrostem liczby neuronów wzrasta dokładność, największy wzrost następuje przy 10 neuronach, później jest już niewielki
+-	Najwyższą dokładność przy każdej liczbie neuronów uzyskuje metoda A
+-	Wykres dla MLPClassifiera jest bardzo podobny do wykresu dla metody A
+-	Dla metody B dokładność znacznie wzrasta przy 10 neuronach, a potem się waha, na przemian rośnie I spada
+-	Przez cały eksperyment liczba alokacji dla metody A jest 5 razy wyższa niż dla metody B
+-	Zużycie pamięci dla metody A I B jest identyczne, wykresy się pokrywają
+-	Występuje zależność liniowa pomiędzy liczbą neuronów ukrytych a zużywaną pamięcią oraz czasem trwania jednej epoki
+-	Najszybsza jest metoda B, metody A I MLPClassfier są wolniejsze I działają w podobnym czasie, czas MLPClassifier jest stabilniejszy, w przypadku metody A, pojawiają się wahania
